@@ -1,7 +1,7 @@
 import React from 'react';
-import banner1 from '../../../Assets/Images/Banner/computer-accesories1.jpg';
-import banner2 from '../../../Assets/Images/Banner/industrial-worker-working-production-line-factory2.jpg';
-import banner3 from '../../../Assets/Images/Banner/computer-parts-from-china.jpg';
+import banner1 from '../../../Assets/Images/Banner/1.jpg';
+import banner2 from '../../../Assets/Images/Banner/2.jpg';
+import banner3 from '../../../Assets/Images/Banner/3.jpg';
 const Banner = () => {
     return (
         <div>
