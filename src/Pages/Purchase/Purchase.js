@@ -13,7 +13,7 @@ const Purchase = () => {
     const [value, setValue] = useState(null);
     const navigate = useNavigate();
     useEffect(() => {
-        const url = `https://enigmatic-shelf-24691.herokuapp.com/tools/${id}`;
+        const url = `http://localhost:5000/tools/${id}`;
         fetch(url, {
             method: 'GET',
             headers: {
@@ -41,7 +41,7 @@ const Purchase = () => {
             phone,
             price
         }
-        fetch('https://enigmatic-shelf-24691.herokuapp.com/orders', {
+        fetch('http://localhost:5000/orders', {
             method: 'POST',
             headers: {
                 'content-type': 'application/json'

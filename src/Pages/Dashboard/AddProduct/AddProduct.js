@@ -26,7 +26,7 @@ const AddProduct = () => {
             email: email
 
         }
-        fetch('https://enigmatic-shelf-24691.herokuapp.com/tools', {
+        fetch('http://localhost:5000/tools', {
             method: 'POST',
             headers: {
                 'content-type': 'application/json'

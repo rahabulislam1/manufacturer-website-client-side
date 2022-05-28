@@ -16,7 +16,7 @@ const AddReview = () => {
             img: img,
             review: comment
         }
-        fetch('https://enigmatic-shelf-24691.herokuapp.com/reviews', {
+        fetch('http://localhost:5000/reviews', {
             method: 'POST',
             headers: {
                 'content-type': 'application/json'
