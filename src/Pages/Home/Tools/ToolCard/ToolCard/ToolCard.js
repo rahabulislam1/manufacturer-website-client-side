@@ -13,7 +13,7 @@ const ToolCard = ({ tool }) => {
             <figure className="px-10 pt-10">
                 <img src={img} alt="Shoes" className="rounded-xl" />
             </figure>
-            <div className="card-body items-center text-center bg-slate-200">
+            <div className="card-body items-center text-center bg-green-100">
                 <h2 className="card-title">{name}</h2>
                 <p>Product Details : {des}</p>
                 <p>Minimum Order Quantity: {min_ord}</p>
