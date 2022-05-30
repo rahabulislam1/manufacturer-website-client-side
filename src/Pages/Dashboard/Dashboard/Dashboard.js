@@ -25,7 +25,6 @@ const Dashboard = () => {
                     {!admin && <li><Link className='text-teal-500 text-2xl' to="/dashboard/myOrder">My Order</Link></li>}
                     {admin && <li><Link className='text-teal-500 text-2xl' to="/dashboard/addProduct">Add a Product</Link></li>}
 
-                    {admin && <li><Link className='text-teal-500 text-2xl' to="/dashboard/manageOrders">Manage All Orders</Link></li>}
                     {admin && <li><Link className='text-teal-500 text-2xl' to="/dashboard/makeAdmin">Make Admin</Link></li>}
                     {admin && <li><Link className='text-teal-500 text-2xl' to="/dashboard/manageProducts">Manage Products</Link></li>}
                 </ul>
