@@ -23,7 +23,7 @@ const Business = () => {
                         <img src={items} alt="Shoes" className="rounded-xl" />
                     </figure>
                     <div className="card-body items-center text-center">
-                        <h2 className="card-title text-primary text-3xl">200+</h2>
+                        <h2 className="card-title text-primary text-3xl">300+</h2>
                         <h3 className='text-3xl'>Products</h3>
                     </div>
                 </div>
@@ -32,7 +32,7 @@ const Business = () => {
                         <img src={clients} alt="Shoes" className="rounded-xl" />
                     </figure>
                     <div className="card-body items-center text-center">
-                        <h2 className="card-title text-primary text-3xl">500+</h2>
+                        <h2 className="card-title text-primary text-3xl">700+</h2>
                         <h3 className='text-3xl'>Happy Clients</h3>
                     </div>
                 </div>
@@ -41,7 +41,7 @@ const Business = () => {
                         <img src={feedback} alt="Shoes" className="rounded-xl" />
                     </figure>
                     <div className="card-body items-center text-center">
-                        <h2 className="card-title text-primary text-3xl">800+</h2>
+                        <h2 className="card-title text-primary text-3xl">600+</h2>
                         <h3 className='text-3xl'>Feedbacks</h3>
                     </div>
                 </div>

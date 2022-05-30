@@ -20,7 +20,7 @@ const ToolCard = ({ tool }) => {
                 <p>InStock : {stock}</p>
                 <p>Price : ${price}</p>
                 <div className="card-actions">
-                    <button onClick={() => handleBook(_id)} className="btn btn-primary">Book Now</button>
+                    <button onClick={() => handleBook(_id)} className="btn btn-primary">Purchase</button>
                 </div>
             </div>
         </div>

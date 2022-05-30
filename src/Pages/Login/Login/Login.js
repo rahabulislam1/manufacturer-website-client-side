@@ -96,7 +96,7 @@ const Login = () => {
                         {signInError}
                         <input className='btn w-full max-w-xs text-white' type="submit" value="Login" />
                     </form>
-                    <p>New to Thor Computer Mfr.? <Link className='text-primary' to="/register">Please Register</Link> </p>
+                    <p>New to HR Robotics? <Link className='text-primary' to="/register">Please Register</Link> </p>
                     <div className="divider">OR</div>
                     <button onClick={googleSubmit} className="btn btn-secondary"><img className='px-2' src={google} alt="" /> Continue with Google </button>
                     <button onClick={githubSubmit} className="btn btn-secondary"><img className='px-2' src={github} alt="" /> Continue with GitHub</button>
