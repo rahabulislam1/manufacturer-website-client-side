@@ -8,7 +8,7 @@ import CheckoutForm from '../../Payment/CheckoutForm/CheckoutForm';
 const Payment = () => {
     const stripePromise = loadStripe('pk_test_51L4TEyFljXAy8gjGgx4RftNMS6qExRNlVrxoTqLnDuXPnOdiiGrsWKPFl0hQLBxKsKP74QJ7329pApKgaKh6BogQ00XASuOEIx');
     const { id } = useParams();
-    const url = `http://localhost:5000/orders/${id}`;
+    const url = `https://mysterious-escarpment-73124.herokuapp.com/orders/${id}`;
     const [order, setOrder] = useState({});
     useEffect(() => {
         fetch(url)

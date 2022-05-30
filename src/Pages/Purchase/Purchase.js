@@ -13,7 +13,7 @@ const Purchase = () => {
     const [value, setValue] = useState(null);
     const navigate = useNavigate();
     useEffect(() => {
-        const url = `http://localhost:5000/tools/${id}`;
+        const url = `https://mysterious-escarpment-73124.herokuapp.com/tools/${id}`;
         fetch(url, {
             method: 'GET',
             headers: {
@@ -41,7 +41,7 @@ const Purchase = () => {
             phone,
             price
         }
-        fetch('http://localhost:5000/orders', {
+        fetch('https://mysterious-escarpment-73124.herokuapp.com/orders', {
             method: 'POST',
             headers: {
                 'content-type': 'application/json'
