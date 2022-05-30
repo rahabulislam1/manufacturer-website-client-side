@@ -2,6 +2,44 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+### Website Name
+
+HR Robotic Parts Menufecture
+
+### Live Website Link 
+
+
+### Description 
+
+* This project is based on Hardware Parts manufacturer.
+* In the home section we have a navbar,in the Home page, we show some of our products.then we show some of customers review and a simple navbar.
+* In the Tools we we show all of our products.for every product have a purchas button,by clicking this a logged in user can order the product.In the order page user can purchas the amount of product one's need.
+* In the Dashboard section if a user is an admin show add a product,make admin,manage orders,manage products.add a product...But a non admin user can see add a review section .
+* one blog section where we answered some questions.
+* if user is login then only can see the dashboard.
+* we have register and login section.
+
+### Technology Used (Client Side)
+
+* React router
+* Tailwind
+* Firebase
+* React firebase hooks
+* React toastify
+* Express js
+* React hook form
+* Stripe
+* Daisy 
+* React Query
+
+### Technology Used (Server Side)
+
+* Express
+* dotenv
+* mongodb
+* jwt
+* stripe
+
 ## Available Scripts
 
 In the project directory, you can run:
