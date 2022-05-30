@@ -24,7 +24,7 @@ const Dashboard = () => {
                     {!admin && <li><Link to="/dashboard/addReview" className='text-teal-500 text-2xl'>Add a Review</Link></li>}
                     {!admin && <li><Link className='text-teal-500 text-2xl' to="/dashboard/myOrder">My Order</Link></li>}
                     {admin && <li><Link className='text-teal-500 text-2xl' to="/dashboard/addProduct">Add a Product</Link></li>}
-                    {admin && <li><Link className='text-teal-500 text-2xl' to="/dashboard/manageOrders">Add a Product</Link></li>}
+                    {admin && <li><Link className='text-teal-500 text-2xl' to="/dashboard/manageOrders">Manage Orders</Link></li>}
 
                     {admin && <li><Link className='text-teal-500 text-2xl' to="/dashboard/makeAdmin">Make Admin</Link></li>}
                     {admin && <li><Link className='text-teal-500 text-2xl' to="/dashboard/manageProducts">Manage Products</Link></li>}
