@@ -18,6 +18,7 @@ https://hardware-parts-manufacturer.web.app/
 * one blog section where we answered some questions.
 * if user is login then only can see the dashboard.
 * we have register and login section.
+* You can also order any sensor and robotic parts.
 
 ### Technology Used (Client Side)
 
